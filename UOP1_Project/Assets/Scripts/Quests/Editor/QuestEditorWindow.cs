@@ -481,7 +481,7 @@ public class QuestEditorWindow : EditorWindow
 		listview.selectionType = UnityEngine.UIElements.SelectionType.Single;
 		listview.style.flexGrow = 1.0f;
 
-		listview.Rebuild();
+		listview.Refresh();
 		if (itemsSource.Length > 0)
 			listview.selectedIndex = 0;
 	}
